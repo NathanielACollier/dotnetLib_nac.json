@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "rushForPayment": "false",
+      "amount": 1000,
+      "invoiceDate": "",
+      "dueDate": "2024-01-01",
+      "fileSize": 1000349439,
+      "lines": {
+        "sequence": 1,
+        "amount": 1000.63,
+        "glAccountCode": "500.3"
+      },
+      "target": "Apple",
+      "num": 20,
+      "numFactory": 33
+    },
+    {
+      "id": 2,
+      "rushForPayment": true,
+      "amount": 13.50,
+      "invoiceDate": "2023-01-20",
+      "dueDate": "2024-01-01",
+      "fileSize": null,
+      "lines": [
+        {
+          "sequence": 1,
+          "amount": 1000.63,
+          "glAccountCode": "500.3"
+        },
+        {
+          "sequence": 2,
+          "amount": 12,
+          "glAccountCode": "500.3"
+        },
+        {
+          "sequence": 3,
+          "amount": 7,
+          "glAccountCode": "500.3"
+        }
+      ],
+      "target": [
+        "orange",
+        "blue"
+      ],
+      "num": [
+        1,2,3,4,5,6,7,8,9,10
+      ],
+      "numFactory": [11,12,13,14,15,16]
+    },
+    {
+      "id": 3,
+      "rushForPayment": null,
+      "amount": 13.50,
+      "invoiceDate": "2023-01-20",
+      "dueDate": "2024-01-01",
+      "fileSize": null  
+    }
+  ]
